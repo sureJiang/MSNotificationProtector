@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BF55902E25BFD1B0026C20B5D9B156 /* NSObject+MSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = D52467A82C86A5615943AEC3436796ED /* NSObject+MSSwizzle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49E3C814F35A0CC9F15A1B162710A556 /* MSMonitorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C801850FF6ECE9DCE18C1C99373111 /* MSMonitorObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50FABF1ECF9F182D232E2C929078C7FF /* Pods-MSNotificationProtectorDEMOUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4B875822E58CABAD88BF19F1EE26F7 /* Pods-MSNotificationProtectorDEMOUITests-dummy.m */; };
+		55E88B777F1E55BA2EEE2BF6BE0BB972 /* NSNotificationCenter+MSSafeProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = 57150CF2871044E011D193729DBEB0FD /* NSNotificationCenter+MSSafeProtect.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		743B598DBBB4A9E2DA64A6019C5BA900 /* Pods-MSNotificationProtectorDEMOTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2C37CAB9A27779B396CA3E60BCD716 /* Pods-MSNotificationProtectorDEMOTests-dummy.m */; };
+		81E105ED03629F3A20B6764B90DE3C93 /* MSMonitorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 136EB7E38FC684B3CCA5BF22DBF00343 /* MSMonitorObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF419E4087E7B0EAA3EF170E54108A91 /* NSObject+MSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BBCCEB05E4C7D761D5A1704B1627 /* NSObject+MSSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B87E93444917B9DEBE7B1C1B8E6404EE /* MSNotificationProtector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7F5EC7293301C1D54B87936CE4FB /* MSNotificationProtector-dummy.m */; };
+		E0066F292F35FE324F4FDE9981760CB4 /* Pods-MSNotificationProtectorDEMO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E32E60907DF3E3655FC4362965361E /* Pods-MSNotificationProtectorDEMO-dummy.m */; };
+		F6AE250428E4C3DA00A06A9D25F2A369 /* NSNotificationCenter+MSSafeProtect.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A718EA1D120FB0A87725969C01DA87 /* NSNotificationCenter+MSSafeProtect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5201AFAF95EF3F9A65873470BF46CEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160DEB9B0589C004400281C712C5D46D;
+			remoteInfo = MSNotificationProtector;
+		};
+		5815AC30FEBB92B3E87AB1D3CDAA1E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D46564762C2B55E347963D9C05521D;
+			remoteInfo = "Pods-MSNotificationProtectorDEMO";
+		};
+		63BD3A3F7FA556E8EFA2CF18D2C887A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D46564762C2B55E347963D9C05521D;
+			remoteInfo = "Pods-MSNotificationProtectorDEMO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F2BB831AA09D4292A355662DF12EF1 /* libPods-MSNotificationProtectorDEMOTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSNotificationProtectorDEMOTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0587C2754EB440B122663D4C19E1EC52 /* libPods-MSNotificationProtectorDEMOUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSNotificationProtectorDEMOUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3D9483D970F4F95162561A510C1219 /* Pods-MSNotificationProtectorDEMOTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSNotificationProtectorDEMOTests-frameworks.sh"; sourceTree = "<group>"; };
+		136EB7E38FC684B3CCA5BF22DBF00343 /* MSMonitorObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSMonitorObject.h; path = MSNotificationProtector/MSMonitorObject.h; sourceTree = "<group>"; };
+		14A718EA1D120FB0A87725969C01DA87 /* NSNotificationCenter+MSSafeProtect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+MSSafeProtect.h"; path = "MSNotificationProtector/NSNotificationCenter+MSSafeProtect.h"; sourceTree = "<group>"; };
+		1D1825630DCE5788CF1C8752CB669ED0 /* MSNotificationProtector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSNotificationProtector-prefix.pch"; sourceTree = "<group>"; };
+		3141602CCD38F0F74425BF9C02A49934 /* Pods-MSNotificationProtectorDEMOTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSNotificationProtectorDEMOTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CA9A39B6DD97186CE5AA436480F2F9B /* libPods-MSNotificationProtectorDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSNotificationProtectorDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBC9FD9861C8F0C260C1FB0EECCB298 /* Pods-MSNotificationProtectorDEMOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSNotificationProtectorDEMOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DE16B1FA83726D22C4980118DE95002 /* Pods-MSNotificationProtectorDEMO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSNotificationProtectorDEMO-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57150CF2871044E011D193729DBEB0FD /* NSNotificationCenter+MSSafeProtect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+MSSafeProtect.m"; path = "MSNotificationProtector/NSNotificationCenter+MSSafeProtect.m"; sourceTree = "<group>"; };
+		5A97C55B4AA45D1974BEA7E34587F644 /* Pods-MSNotificationProtectorDEMOUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSNotificationProtectorDEMOUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6029ED98E7E1EFAC4B9689FB42117822 /* Pods-MSNotificationProtectorDEMO-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSNotificationProtectorDEMO-frameworks.sh"; sourceTree = "<group>"; };
+		602D16D8C84277569F3427E2662DD4BE /* Pods-MSNotificationProtectorDEMOUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSNotificationProtectorDEMOUITests-resources.sh"; sourceTree = "<group>"; };
+		6275ED2DB5913AB908DA6A105E487702 /* MSNotificationProtector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSNotificationProtector.xcconfig; sourceTree = "<group>"; };
+		65E32E60907DF3E3655FC4362965361E /* Pods-MSNotificationProtectorDEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSNotificationProtectorDEMO-dummy.m"; sourceTree = "<group>"; };
+		6ACDDD8A81A12FB716EDDC792E9E71CA /* Pods-MSNotificationProtectorDEMOUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSNotificationProtectorDEMOUITests-frameworks.sh"; sourceTree = "<group>"; };
+		702D3BD7ACBCB8E8784A620C99A2F518 /* libMSNotificationProtector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSNotificationProtector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB1F83DD97C941B8C0E7F5DB9FA30A7 /* Pods-MSNotificationProtectorDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSNotificationProtectorDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		7E22BBCCEB05E4C7D761D5A1704B1627 /* NSObject+MSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MSSwizzle.m"; path = "MSNotificationProtector/NSObject+MSSwizzle.m"; sourceTree = "<group>"; };
+		82F6220BF64CD0C405763DF2BF25B3B9 /* Pods-MSNotificationProtectorDEMOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSNotificationProtectorDEMOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		850004EB6AECBA1A24CBB8A3667DDF6A /* Pods-MSNotificationProtectorDEMOUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSNotificationProtectorDEMOUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D30A2DD21DE8CA050876FFAF071A85D /* Pods-MSNotificationProtectorDEMOTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSNotificationProtectorDEMOTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955BA03F36FD6A8D207B5DE98FDF0933 /* Pods-MSNotificationProtectorDEMO-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSNotificationProtectorDEMO-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA4B875822E58CABAD88BF19F1EE26F7 /* Pods-MSNotificationProtectorDEMOUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSNotificationProtectorDEMOUITests-dummy.m"; sourceTree = "<group>"; };
+		B477E8420560DB2DB01F2196176CC641 /* Pods-MSNotificationProtectorDEMOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSNotificationProtectorDEMOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6ED6E5F172438C3E62FF338DE36A79 /* Pods-MSNotificationProtectorDEMOTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSNotificationProtectorDEMOTests-resources.sh"; sourceTree = "<group>"; };
+		BEA86580B16783E87ACCDA7570BF7E9C /* Pods-MSNotificationProtectorDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSNotificationProtectorDEMO.release.xcconfig"; sourceTree = "<group>"; };
+		C196A13068EC3B207B1A7DBB37BCDE09 /* Pods-MSNotificationProtectorDEMOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSNotificationProtectorDEMOTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6C801850FF6ECE9DCE18C1C99373111 /* MSMonitorObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSMonitorObject.m; path = MSNotificationProtector/MSMonitorObject.m; sourceTree = "<group>"; };
+		CA2C37CAB9A27779B396CA3E60BCD716 /* Pods-MSNotificationProtectorDEMOTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSNotificationProtectorDEMOTests-dummy.m"; sourceTree = "<group>"; };
+		D52467A82C86A5615943AEC3436796ED /* NSObject+MSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MSSwizzle.h"; path = "MSNotificationProtector/NSObject+MSSwizzle.h"; sourceTree = "<group>"; };
+		E35535C8BFFD97D671034E95A445188F /* Pods-MSNotificationProtectorDEMO-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSNotificationProtectorDEMO-resources.sh"; sourceTree = "<group>"; };
+		F0AF7F5EC7293301C1D54B87936CE4FB /* MSNotificationProtector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSNotificationProtector-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551FBD30D96808410D45DE34B2FE45F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3A488343B78FB105088FACF536AFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AB82F5B73931A728C0BAEE664C4BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C96F3F5F17462E8BD30DE28213B605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0911F9EBAE456FB876C430D0A73DE6C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6275ED2DB5913AB908DA6A105E487702 /* MSNotificationProtector.xcconfig */,
+				F0AF7F5EC7293301C1D54B87936CE4FB /* MSNotificationProtector-dummy.m */,
+				1D1825630DCE5788CF1C8752CB669ED0 /* MSNotificationProtector-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSNotificationProtector";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21A9B13A0EC15A4DAFA2EB570660D6C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E531ADB8E5160B3B5A0F136D351C43 /* Pods-MSNotificationProtectorDEMO */,
+				9B0E2785275B9712FCA4B0B9C3B6DFE4 /* Pods-MSNotificationProtectorDEMOTests */,
+				A63A5EEDD20F950B9EE3B559D6B797E7 /* Pods-MSNotificationProtectorDEMOUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		49E531ADB8E5160B3B5A0F136D351C43 /* Pods-MSNotificationProtectorDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				4DE16B1FA83726D22C4980118DE95002 /* Pods-MSNotificationProtectorDEMO-acknowledgements.markdown */,
+				955BA03F36FD6A8D207B5DE98FDF0933 /* Pods-MSNotificationProtectorDEMO-acknowledgements.plist */,
+				65E32E60907DF3E3655FC4362965361E /* Pods-MSNotificationProtectorDEMO-dummy.m */,
+				6029ED98E7E1EFAC4B9689FB42117822 /* Pods-MSNotificationProtectorDEMO-frameworks.sh */,
+				E35535C8BFFD97D671034E95A445188F /* Pods-MSNotificationProtectorDEMO-resources.sh */,
+				7DB1F83DD97C941B8C0E7F5DB9FA30A7 /* Pods-MSNotificationProtectorDEMO.debug.xcconfig */,
+				BEA86580B16783E87ACCDA7570BF7E9C /* Pods-MSNotificationProtectorDEMO.release.xcconfig */,
+			);
+			name = "Pods-MSNotificationProtectorDEMO";
+			path = "Target Support Files/Pods-MSNotificationProtectorDEMO";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				A119BCC7C94E908F8A95C5371E73E993 /* Pods */,
+				ACB36721CD974D450D2B8794070624B2 /* Products */,
+				21A9B13A0EC15A4DAFA2EB570660D6C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0E2785275B9712FCA4B0B9C3B6DFE4 /* Pods-MSNotificationProtectorDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D30A2DD21DE8CA050876FFAF071A85D /* Pods-MSNotificationProtectorDEMOTests-acknowledgements.markdown */,
+				3141602CCD38F0F74425BF9C02A49934 /* Pods-MSNotificationProtectorDEMOTests-acknowledgements.plist */,
+				CA2C37CAB9A27779B396CA3E60BCD716 /* Pods-MSNotificationProtectorDEMOTests-dummy.m */,
+				0A3D9483D970F4F95162561A510C1219 /* Pods-MSNotificationProtectorDEMOTests-frameworks.sh */,
+				BC6ED6E5F172438C3E62FF338DE36A79 /* Pods-MSNotificationProtectorDEMOTests-resources.sh */,
+				B477E8420560DB2DB01F2196176CC641 /* Pods-MSNotificationProtectorDEMOTests.debug.xcconfig */,
+				C196A13068EC3B207B1A7DBB37BCDE09 /* Pods-MSNotificationProtectorDEMOTests.release.xcconfig */,
+			);
+			name = "Pods-MSNotificationProtectorDEMOTests";
+			path = "Target Support Files/Pods-MSNotificationProtectorDEMOTests";
+			sourceTree = "<group>";
+		};
+		A0FA3608A681DC5E85740D1401CC7F36 /* MSNotificationProtector */ = {
+			isa = PBXGroup;
+			children = (
+				136EB7E38FC684B3CCA5BF22DBF00343 /* MSMonitorObject.h */,
+				C6C801850FF6ECE9DCE18C1C99373111 /* MSMonitorObject.m */,
+				14A718EA1D120FB0A87725969C01DA87 /* NSNotificationCenter+MSSafeProtect.h */,
+				57150CF2871044E011D193729DBEB0FD /* NSNotificationCenter+MSSafeProtect.m */,
+				D52467A82C86A5615943AEC3436796ED /* NSObject+MSSwizzle.h */,
+				7E22BBCCEB05E4C7D761D5A1704B1627 /* NSObject+MSSwizzle.m */,
+				0911F9EBAE456FB876C430D0A73DE6C8 /* Support Files */,
+			);
+			path = MSNotificationProtector;
+			sourceTree = "<group>";
+		};
+		A119BCC7C94E908F8A95C5371E73E993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0FA3608A681DC5E85740D1401CC7F36 /* MSNotificationProtector */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A63A5EEDD20F950B9EE3B559D6B797E7 /* Pods-MSNotificationProtectorDEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A97C55B4AA45D1974BEA7E34587F644 /* Pods-MSNotificationProtectorDEMOUITests-acknowledgements.markdown */,
+				850004EB6AECBA1A24CBB8A3667DDF6A /* Pods-MSNotificationProtectorDEMOUITests-acknowledgements.plist */,
+				AA4B875822E58CABAD88BF19F1EE26F7 /* Pods-MSNotificationProtectorDEMOUITests-dummy.m */,
+				6ACDDD8A81A12FB716EDDC792E9E71CA /* Pods-MSNotificationProtectorDEMOUITests-frameworks.sh */,
+				602D16D8C84277569F3427E2662DD4BE /* Pods-MSNotificationProtectorDEMOUITests-resources.sh */,
+				82F6220BF64CD0C405763DF2BF25B3B9 /* Pods-MSNotificationProtectorDEMOUITests.debug.xcconfig */,
+				4DBC9FD9861C8F0C260C1FB0EECCB298 /* Pods-MSNotificationProtectorDEMOUITests.release.xcconfig */,
+			);
+			name = "Pods-MSNotificationProtectorDEMOUITests";
+			path = "Target Support Files/Pods-MSNotificationProtectorDEMOUITests";
+			sourceTree = "<group>";
+		};
+		ACB36721CD974D450D2B8794070624B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702D3BD7ACBCB8E8784A620C99A2F518 /* libMSNotificationProtector.a */,
+				3CA9A39B6DD97186CE5AA436480F2F9B /* libPods-MSNotificationProtectorDEMO.a */,
+				02F2BB831AA09D4292A355662DF12EF1 /* libPods-MSNotificationProtectorDEMOTests.a */,
+				0587C2754EB440B122663D4C19E1EC52 /* libPods-MSNotificationProtectorDEMOUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E761A4BDDBB88BB367E082500854F3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E105ED03629F3A20B6764B90DE3C93 /* MSMonitorObject.h in Headers */,
+				F6AE250428E4C3DA00A06A9D25F2A369 /* NSNotificationCenter+MSSafeProtect.h in Headers */,
+				26BF55902E25BFD1B0026C20B5D9B156 /* NSObject+MSSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F650ECE5C4B002176983050E8F34D09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40732547F92F2B7C0625F8BFB65B00E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB96A00C7637DF116F992C23D5A1B80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		160DEB9B0589C004400281C712C5D46D /* MSNotificationProtector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB39FDAFA07D7629F4A2D2116E718C7E /* Build configuration list for PBXNativeTarget "MSNotificationProtector" */;
+			buildPhases = (
+				2E761A4BDDBB88BB367E082500854F3D /* Headers */,
+				E7C2619419A3FF9FCEB00844F2D52A7A /* Sources */,
+				67C96F3F5F17462E8BD30DE28213B605 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSNotificationProtector;
+			productName = MSNotificationProtector;
+			productReference = 702D3BD7ACBCB8E8784A620C99A2F518 /* libMSNotificationProtector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84121C50F5DA2190CF264036694C6461 /* Pods-MSNotificationProtectorDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6246432DDD729C9FE7D4B0946AA17BC9 /* Build configuration list for PBXNativeTarget "Pods-MSNotificationProtectorDEMOTests" */;
+			buildPhases = (
+				CEB96A00C7637DF116F992C23D5A1B80 /* Headers */,
+				6A9FE8FE26CBCAFBDFCB05A532927523 /* Sources */,
+				551FBD30D96808410D45DE34B2FE45F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1EA64EC7995A3959ABD8F242CDF13B /* PBXTargetDependency */,
+			);
+			name = "Pods-MSNotificationProtectorDEMOTests";
+			productName = "Pods-MSNotificationProtectorDEMOTests";
+			productReference = 02F2BB831AA09D4292A355662DF12EF1 /* libPods-MSNotificationProtectorDEMOTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C4D46564762C2B55E347963D9C05521D /* Pods-MSNotificationProtectorDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8659B841B1C05ED8D96DA7EC37C5DED3 /* Build configuration list for PBXNativeTarget "Pods-MSNotificationProtectorDEMO" */;
+			buildPhases = (
+				40732547F92F2B7C0625F8BFB65B00E4 /* Headers */,
+				56E03AD8A7DB42D23FE0B133B3432D3C /* Sources */,
+				5F3A488343B78FB105088FACF536AFA4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19904C00C663AA08E8515C3A9F323322 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSNotificationProtectorDEMO";
+			productName = "Pods-MSNotificationProtectorDEMO";
+			productReference = 3CA9A39B6DD97186CE5AA436480F2F9B /* libPods-MSNotificationProtectorDEMO.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F62B33331362AED74C10D772B686F8D7 /* Pods-MSNotificationProtectorDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573354A77D6B1A30D01EFB8EAC7929EB /* Build configuration list for PBXNativeTarget "Pods-MSNotificationProtectorDEMOUITests" */;
+			buildPhases = (
+				3F650ECE5C4B002176983050E8F34D09 /* Headers */,
+				B850A50FEB9F430B6D528CBDDCBE98D6 /* Sources */,
+				66AB82F5B73931A728C0BAEE664C4BF9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6432BECFD5D7381DC210000B253B830C /* PBXTargetDependency */,
+			);
+			name = "Pods-MSNotificationProtectorDEMOUITests";
+			productName = "Pods-MSNotificationProtectorDEMOUITests";
+			productReference = 0587C2754EB440B122663D4C19E1EC52 /* libPods-MSNotificationProtectorDEMOUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ACB36721CD974D450D2B8794070624B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160DEB9B0589C004400281C712C5D46D /* MSNotificationProtector */,
+				C4D46564762C2B55E347963D9C05521D /* Pods-MSNotificationProtectorDEMO */,
+				84121C50F5DA2190CF264036694C6461 /* Pods-MSNotificationProtectorDEMOTests */,
+				F62B33331362AED74C10D772B686F8D7 /* Pods-MSNotificationProtectorDEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56E03AD8A7DB42D23FE0B133B3432D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0066F292F35FE324F4FDE9981760CB4 /* Pods-MSNotificationProtectorDEMO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9FE8FE26CBCAFBDFCB05A532927523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B598DBBB4A9E2DA64A6019C5BA900 /* Pods-MSNotificationProtectorDEMOTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850A50FEB9F430B6D528CBDDCBE98D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FABF1ECF9F182D232E2C929078C7FF /* Pods-MSNotificationProtectorDEMOUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C2619419A3FF9FCEB00844F2D52A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E3C814F35A0CC9F15A1B162710A556 /* MSMonitorObject.m in Sources */,
+				B87E93444917B9DEBE7B1C1B8E6404EE /* MSNotificationProtector-dummy.m in Sources */,
+				55E88B777F1E55BA2EEE2BF6BE0BB972 /* NSNotificationCenter+MSSafeProtect.m in Sources */,
+				AF419E4087E7B0EAA3EF170E54108A91 /* NSObject+MSSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19904C00C663AA08E8515C3A9F323322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSNotificationProtector;
+			target = 160DEB9B0589C004400281C712C5D46D /* MSNotificationProtector */;
+			targetProxy = 5201AFAF95EF3F9A65873470BF46CEC1 /* PBXContainerItemProxy */;
+		};
+		6432BECFD5D7381DC210000B253B830C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSNotificationProtectorDEMO";
+			target = C4D46564762C2B55E347963D9C05521D /* Pods-MSNotificationProtectorDEMO */;
+			targetProxy = 5815AC30FEBB92B3E87AB1D3CDAA1E28 /* PBXContainerItemProxy */;
+		};
+		7E1EA64EC7995A3959ABD8F242CDF13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSNotificationProtectorDEMO";
+			target = C4D46564762C2B55E347963D9C05521D /* Pods-MSNotificationProtectorDEMO */;
+			targetProxy = 63BD3A3F7FA556E8EFA2CF18D2C887A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		103DD17A9DECEFA4FF1AD045480360AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B477E8420560DB2DB01F2196176CC641 /* Pods-MSNotificationProtectorDEMOTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ECBEC023E93CE506E78BD7004FEF8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA86580B16783E87ACCDA7570BF7E9C /* Pods-MSNotificationProtectorDEMO.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2560282F903A2CA382DD9AAAEDBEA0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6275ED2DB5913AB908DA6A105E487702 /* MSNotificationProtector.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSNotificationProtector/MSNotificationProtector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSNotificationProtector;
+				PRODUCT_NAME = MSNotificationProtector;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		319FF12BA5FBD2D356D147009D478622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6275ED2DB5913AB908DA6A105E487702 /* MSNotificationProtector.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSNotificationProtector/MSNotificationProtector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSNotificationProtector;
+				PRODUCT_NAME = MSNotificationProtector;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47C945C01946C5C7C3E581B8DC3EC4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F6220BF64CD0C405763DF2BF25B3B9 /* Pods-MSNotificationProtectorDEMOUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4941989F01E74B286CCEF1FD59F4D7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C196A13068EC3B207B1A7DBB37BCDE09 /* Pods-MSNotificationProtectorDEMOTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77B01B0833ADCFEAFE5D13B27B9694EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBC9FD9861C8F0C260C1FB0EECCB298 /* Pods-MSNotificationProtectorDEMOUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF657C619391845316A8F64997294701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB1F83DD97C941B8C0E7F5DB9FA30A7 /* Pods-MSNotificationProtectorDEMO.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573354A77D6B1A30D01EFB8EAC7929EB /* Build configuration list for PBXNativeTarget "Pods-MSNotificationProtectorDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C945C01946C5C7C3E581B8DC3EC4DF /* Debug */,
+				77B01B0833ADCFEAFE5D13B27B9694EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6246432DDD729C9FE7D4B0946AA17BC9 /* Build configuration list for PBXNativeTarget "Pods-MSNotificationProtectorDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103DD17A9DECEFA4FF1AD045480360AE /* Debug */,
+				4941989F01E74B286CCEF1FD59F4D7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8659B841B1C05ED8D96DA7EC37C5DED3 /* Build configuration list for PBXNativeTarget "Pods-MSNotificationProtectorDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF657C619391845316A8F64997294701 /* Debug */,
+				1ECBEC023E93CE506E78BD7004FEF8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB39FDAFA07D7629F4A2D2116E718C7E /* Build configuration list for PBXNativeTarget "MSNotificationProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319FF12BA5FBD2D356D147009D478622 /* Debug */,
+				2560282F903A2CA382DD9AAAEDBEA0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

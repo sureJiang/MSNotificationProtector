@@ -1,0 +1,16 @@
+PODS:
+  - MSNotificationProtector (1.0)
+
+DEPENDENCIES:
+  - MSNotificationProtector
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MSNotificationProtector
+
+SPEC CHECKSUMS:
+  MSNotificationProtector: 70121469b3ac0f516bea3c1533b6f446c7a308b6
+
+PODFILE CHECKSUM: 5aa853e9794f6146bd105a323de5a3ce98684c95
+
+COCOAPODS: 1.5.3
